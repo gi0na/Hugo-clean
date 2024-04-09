@@ -31,7 +31,10 @@
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
+        <h3>{{ .subtitle | markdownify }}</h3>
+        <div class="profile-summary">
+            {{ .summary | markdownify }}
+        </div>
         {{- partial "social_icons.html" -}}
 
         {{- with .buttons }}

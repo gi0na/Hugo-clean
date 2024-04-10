@@ -405,3 +405,8 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+.post-single{
+    padding-left: calc(var(--main-width)*.02);
+    padding-right: calc(var(--main-width)*.02);
+}

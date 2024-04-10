@@ -15,6 +15,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding-left: calc(var(--main-width)*.02);
+    padding-right: calc(var(--main-width)*.02);
 }
 
 .profile img {

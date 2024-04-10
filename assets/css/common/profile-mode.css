@@ -23,6 +23,14 @@
     border-radius: 50%;
 }
 
+.profile-summary {
+    text-align: justify;
+}
+
+body.dark .profile-summary strong {
+    font-weight: 900;
+}
+
 .buttons {
     flex-wrap: wrap;
     max-width: 400px;

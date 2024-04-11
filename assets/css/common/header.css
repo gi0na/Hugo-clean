@@ -91,3 +91,21 @@ body:not(.dark) #sun {
 .logo-switches {
     flex-wrap: inherit;
 }
+/* Default styles: Applied when no media query conditions are met (like an 'else') */
+.logo .label-text {
+    display: none; /* Hide label text by default */
+}
+
+.logo .site-title {
+    display: inline; /* Show site title by default */
+}
+
+/* Hide site title and show label text on smaller screens */
+@media (max-width: 768px) {
+    .logo .label-text {
+        display: inline;
+    }
+    .logo .site-title {
+        display: none; /* or 'block', depending on desired layout */
+    }
+}

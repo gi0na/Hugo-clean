@@ -129,6 +129,10 @@
     margin-top: 10px;
 }
 
+.post-content p {
+    text-align: justify;
+}
+
 .post-content table {
     margin-bottom: var(--content-gap);
 }

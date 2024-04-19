@@ -37,11 +37,13 @@ body.dark .profile-summary strong {
 }
 
 .button {
-    background: var(--tertiary);
+    background: none;  /* var(--tertiary); */
+    border: 2px solid var(--primary);
     border-radius: var(--radius);
     margin: 8px;
-    padding: 6px;
+    padding: 4px;
     transition: transform 0.1s;
+    font-weight: 700;
 }
 
 .button-inner {

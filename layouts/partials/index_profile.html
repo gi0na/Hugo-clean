@@ -38,7 +38,7 @@
         {{- if .showButtons }}
         <div class="buttons">
             {{- range site.Params.buttons }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}" data-umami-event='{{ printf "%s-button" .name }}'>
                 <span class="button-inner">
                     {{ .name }}
                     {{- if (findRE "://" .url) }}&nbsp;
